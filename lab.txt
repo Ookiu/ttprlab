@@ -1,0 +1,58 @@
+Week #4: PYTHON HANDS-ON PRACTICE LAB
+
+
+Completion time: 45 mins – 1 hour
+
+LAB Assignment: Online Store Management System
+
+LAB Instructions: Use any IDE (VS Code, Pycharm, Replit, etc) to complete the lab.
+
+You are a junior Python developer hired to build a basic command-line Online Store Management App for a small business called 
+"ByteBazaar", which sells tech gadgets. The owner wants a minimal but functional app that helps track available products, manage 
+purchases, and keep the store's inventory updated in real time.
+The system should:
+•	Display a list of available products with their prices and quantities in stock.
+•	Prompt the customer and allow them to select products to purchase.
+•	Calculate the total bill.
+•	Handle cases like invalid product input or trying to buy more than what's in stock.
+•	Update the inventory after a successful purchase.
+•	Allow the process to repeat until the user decides to exit.
+
+The functional requirements are clearly stated below.
+You need to build a CLI-based Python app that:
+•	Displays the inventory (product name, price, and stock).
+•	Prompts the user to select a product to buy (by name).
+•	Prompts for quantity to purchase.
+•	Validates inputs:
+	                    Check if the product exists.
+	                    Check if the desired quantity is available.
+•	Calculates total cost and displays it.
+•	Updates inventory accordingly.
+•	Handles exceptions gracefully (e.g., non-numeric input for quantity).
+•	Repeats the shopping process until the user decides to quit.
+
+Here is an example of how the application should look. Feel free to add extra design Feel free to add extra design 
+elements, features, or enhancements that improve the user experience or functionality.
+
+Welcome to ByteBazaar!
+Here's what we have in stock:
+Product     Price   Stock
+-----------------------------
+Mouse       $29.99  10
+Keyboard    $19.99  15
+Monitor     $149.99 5
+...
+
+What would you like to buy? monitor
+How many do you want? 2
+Total cost: $299.98
+Purchase successful!
+Stock for Monitor is now 3.
+Would you like to buy another product? (yes/no):
+yes
+What would you like to buy? USB Cable
+How many do you want? 30
+Sorry, we only have 25 USB Cable(s) in stock.
+Would you like to buy another product? (yes/no): no
+Thanks for shopping with ByteBazaar!
+ 
